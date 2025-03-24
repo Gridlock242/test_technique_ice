@@ -1,0 +1,24 @@
+/* PAGE GÉNÉRALE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 20px;
+}
+
+.userProfil {
+    display: flex;
+}
+
