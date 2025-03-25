@@ -15,10 +15,33 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: white;
-    margin: 20px;
+    margin: 1em;
+    height: 2em;
+    
 }
 
 .userProfil {
     display: flex;
 }
+
+/* SIDEBAR */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100dvh;
+    max-height: 100dvh;
+    background-color: #3ce0a0;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 12rem;
+}
+
+.wrapper ul li a {
+    text-decoration: none;
+}
+
+
 
